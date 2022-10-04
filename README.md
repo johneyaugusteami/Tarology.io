@@ -1,1 +1,1 @@
-# Tarotology.io
+# Tarology.io
