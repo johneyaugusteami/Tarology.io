@@ -1,10 +1,10 @@
 function readTarot() {
 
 
-    var card1 = document.getElementById("card1"),
-        card2 = document.getElementById("card2"),
-        card3 = document.getElementById("card3"),
-        card4 = document.getElementById("card4"),
+    var card1name = document.getElementById("card1name"),
+        card2name = document.getElementById("card2name"),
+        card3name = document.getElementById("card3name"),
+        card4name = document.getElementById("card4name"),
         card1img = document.getElementById("card1img"),
         card2img = document.getElementById("card2img"),
         card3img = document.getElementById("card3img"),
@@ -19,7 +19,10 @@ function readTarot() {
         card4key = document.getElementById("card4key");
 
 
-
+    let randCard = Math.floor(Math.random() * 78);
+    let randCard2 = Math.floor(Math.random() * 78);
+    let randCard3 = Math.floor(Math.random() * 78);
+    let randCard4 = Math.floor(Math.random() * 78);
 
 
 
@@ -493,8 +496,24 @@ function readTarot() {
             card: "King of Wands",
             meaning: "Prioritize understanding people first. Stop Judging others so hard.",
             keywords: "Big picture, leader, overcoming challenges",
-            img: ""
+            img: "img/king_of_wands.jpg"
         },
 
     ]
+
+    card1name.innerText = intuitivetarot[randCard].card;
+    card1mean.innerText = intuitivetarot[randCard].meaning;
+    card1key.innerText = intuitivetarot[randCard].keywords;
+    card2name.innerText = intuitivetarot[randCard2].card;
+    card2mean.innerText = intuitivetarot[randCard2].meaning;
+    card2key.innerText = intuitivetarot[randCard2].keywords;
+    card3name.innerText = intuitivetarot[randCard3].card;
+    card3mean.innerText = intuitivetarot[randCard3].meaning;
+    card3key.innerText = intuitivetarot[randCard3].keywords;
+    card4name.innerText = intuitivetarot[randCard4].card;
+    card4mean.innerText = intuitivetarot[randCard4].meaning;
+    card4key.innerText = intuitivetarot[randCard4].keywords;
+    //card4img.src = intuitivetarot[randcard4].img;
+
+
 }
