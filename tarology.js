@@ -42,109 +42,109 @@ var intuitivetarot = [
     {
         card: "IV The Emperor",
         meaning: "Discipline and obeying the rules.",
-        keywords: "",
+        keywords: "Stability, structure, protection, authority, control, practicality, focus, discipline, fatherliness",
         img: ""
     },
     {
         card: "V The Hierophant",
-        meaning: "Pursuit of traditional knowledge.",
-        keywords: "",
+        meaning: "Pursuit of traditional knowledge. Adapt to certain beliefs and systems, following social structures",
+        keywords: "Tradition, social groups, conventionality, conformity, education, knowledge, beliefs",
         img: ""
     },
     {
         card: "VI The Lovers",
-        meaning: "Someone loves you, but you may want to make a different choice.",
-        keywords: "",
+        meaning: "Someone loves you, but you may want to make a different choice. Be true to yourself to be true and authentic to others",
+        keywords: "Love, unions, partnerships, relationships, choices, romance, balance, unity",
         img: ""
     },
     {
         card: "VII The Chariot",
-        meaning: "It's best to get in the Drivers seat for a while.",
-        keywords: "",
+        meaning: "It's best to get in the Drivers seat for a while. Opposing forces that need to be controlled",
+        keywords: "Success, ambition, determination, willpower, control, self-discipline, focus",
         img: ""
     },
     {
         card: "VIII Strength",
-        meaning: "Use honey not vinegar.",
-        keywords: "",
+        meaning: "Use honey not vinegar. Gentle control - love and compassion",
+        keywords: "Courage, bravery, confidence, compassion, self-confidence, inner power",
         img: ""
     },
     {
         card: "IX The Hermit",
-        meaning: "Take time alone to think.",
-        keywords: "",
+        meaning: "Take time alone to think. Walks through dark night of unconscious, with destination being his home, his self",
+        keywords: "Self-reflection, introspection, contemplation, withdrawal, solitude, search for self, search for truth",
         img: ""
     },
     {
         card: "X The Wheel of Fortune",
-        meaning: "Things are changing fast around you.",
-        keywords: "",
+        meaning: "Things are changing fast around you. Greater forces outside of human control are at work",
+        keywords: "Change, cycles, fate, decisive moments, luck, fortune, unexpected events",
         img: ""
     },
     {
         card: "XI Justice",
-        meaning: "Treat people fairly and you will be treated fairly.",
-        keywords: "",
+        meaning: "Treat people fairly and you will be treated fairly. If you have been wronged, this card's appearance may bring you relief. If you have caused harm, this card serves as a warning",
+        keywords: "Justice, karma, consequence, accountability, law, truth, honesty, integrity, cause and effect",
         img: ""
     },
     {
         card: "XII The Hanged Man",
-        meaning: "a sacrifice for the better.",
-        keywords: "",
+        meaning: "a sacrifice for the better. His position is a sacrifice that needs to be made in order to progress forward, the time spent here will not be wasted",
+        keywords: "Sacrifice, waiting, uncertainty, lack of direction, perspective, contemplation",
         img: ""
     },
     {
         card: "XIII Death",
-        meaning: "Accept the end of a situation.",
-        keywords: "",
+        meaning: "Accept the end of a situation. The old version of you needs to 'die' to allow the new you to be created",
+        keywords: "Transformation, endings, change, transition, letting go, release",
         img: ""
     },
     {
         card: "XIV Temperance",
-        meaning: "NEED FOR BALANCE! or be Cautious.",
-        keywords: "",
+        meaning: "NEED FOR BALANCE! Be Cautious. Extremity in any situation is to be avoided",
+        keywords: "Balance, peace, patience, moderation, calm, tranquility, harmony, serenity",
         img: ""
     },
     {
         card: "XV The Devil",
-        meaning: "Be aware of the Puppeteer in your life!",
-        keywords: "",
+        meaning: "Be aware of the Puppeteer in your life! You have feelings of entrapment, emptiness and lack of fulfillment in your life. Puppeteer could be addiction, a person, or an ideology.",
+        keywords: "Oppression, addiction, obsession, dependency, excess, powerlessness, limitations",
         img: ""
     },
     {
         card: "XVI The Tower",
-        meaning: "A setback causes need to rebuild.",
-        keywords: "",
+        meaning: "A setback causes need to rebuild. Our old truths/beliefs are no longer useful",
+        keywords: "Disaster, destruction, upheaval, trauma, sudden change, chaos",
         img: ""
     },
     {
         card: "XVII The Star",
-        meaning: "Healing and rebirth is directly ahead.",
-        keywords: "",
+        meaning: "Healing and rebirth is directly ahead. Shows abundant blessings from the universe",
+        keywords: "Hope, inspiration, positivity, faith, renewal, healing, rejuvenation",
         img: ""
     },
     {
         card: "XVIII The Moon",
-        meaning: "Don't be deceived	by the reflection in the water.",
-        keywords: "",
+        meaning: "Don't be deceived	by the reflection in the water. The moon, your intuition, can bring you clarity and understanding in the darkness",
+        keywords: "Illusion, intuition, uncertainty, confusion, complexity, secrets, unconsciou",
         img: ""
     },
     {
         card: "XIX The Sun",
-        meaning: "A wonderful experience is ahead of you.",
-        keywords: "",
+        meaning: "A wonderful experience is ahead of you. Happiness that occurs when you are in alignment with your true self",
+        keywords: "Happiness, success, optimism, vitality, joy, confidence, happiness, truth",
         img: ""
     },
     {
         card: "XX Judgement",
-        meaning: "You need to (LISTEN) more!",
-        keywords: "",
+        meaning: "You need to (LISTEN) more! You are coming close to a significant point in your life where you must start to evaluate yourself.",
+        keywords: "Self-evaluation, awakening, renewal, purpose, reflection, reckoning",
         img: ""
     },
     {
         card: "XXI The World",
-        meaning: "Freedom to choose a new path.",
-        keywords: "",
+        meaning: "All your efforts are starting to pay off. You have completed a major milestone and you have built the resilience to withstand challenges",
+        keywords: "Completion, achievement, fulfilment, sense of belonging, wholeness, harmony",
         img: ""
     },
     {
