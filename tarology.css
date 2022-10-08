@@ -80,6 +80,7 @@ body {
 }
 
 
+
 /*FONTS*/
 body {
     font-family: 'Merienda One', cursive;
@@ -89,4 +90,27 @@ body {
 .start-reading {
     background-color: #76358D;
     color: #F6F5F3;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarotcard {
+        display: flex;
+        flex-direction: column;
+        padding: 4%;
+    }
+
+    .cardimg {
+        align-items: center;
+    }
+
 }
