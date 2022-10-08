@@ -1,0 +1,44 @@
+/*COLORS*/
+body {
+    background-color: #211938;
+}
+
+.outer-shell_white {
+    border-radius: 15px 15px;
+    background-color: #F6F5F3;
+    width: fit-content;
+    padding: 2%;
+    margin-top: 8%;
+}
+
+.pre-check {
+    background-color: #7E75B7;
+    border-radius: 15px 15px;
+    width: fit-content;
+    margin-top: -10%;
+    color: #F6F5F3;
+
+}
+
+.io {
+    color: #76358D;
+}
+
+.short-exp {
+    color: #76358D;
+}
+
+.top-header {
+    color: #F6F5F3;
+}
+
+/*LAYOUT*/
+.pre-check {
+    border: none;
+}
+
+/*BUTTON*/
+.start-reading {
+    background-color: #76358D;
+    color: #F6F5F3;
+}

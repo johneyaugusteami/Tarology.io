@@ -5,41 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarology.css">
     <title>Tarology</title>
 </head>
 
 <body>
-    <h1 class="top-header">Welcome to Tarology.io</h1>
-    <h4>Tarology.io is an intuitive cyber tarot platform. Set your intent and recieve intuitive advice provided by
-        Tarologist <em>Johney Auguste Ami</em>.</h4>
-    <fieldset>
-        <label for="take-inventory">Take inventory of how you feel physically, mentally and spiritually.</label>
-        <input type="checkbox" name="take-inventory" id="take-inventory" required> <br>
-        <label for="cleanse-space">Clean/Cleanse your physical space to create a space for positive energy to
-            flourish.</label>
-        <input type="checkbox" name="cleanse-space" id="cleanse-space" required> <br>
-        <label for="focus">Focus on the answers you seek to recieve from this reading</label>
-        <input type="checkbox" name="focus" id="focus" required><br>
-        <label for="intent">Set your intention:</label>
-        <input type="text"><br><br>
-        <button onclick="" value="submit">Start Tarot Reading</button>
-    </fieldset>
+    <h1 class="top-header">Welcome to Tarology.<span class="io">io</span></h1>
+
+    <div class="outer-shell_white">
+        <fieldset class="pre-check">
+            <label for="take-inventory">Take inventory of how you feel physically, mentally and spiritually.</label>
+            <input type="checkbox" name="take-inventory" id="take-inventory" required> <br>
+            <label for="cleanse-space">Clean/Cleanse your physical space to create a space for positive energy to
+                flourish.</label>
+            <input type="checkbox" name="cleanse-space" id="cleanse-space" required> <br>
+            <label for="focus">Focus on the answers you seek to recieve from this reading</label>
+            <input type="checkbox" name="focus" id="focus" required><br>
+            <label for="intent">Set your intention:</label>
+            <input type="text"><br><br>
+            <button class="start-reading" onclick="readTarot()" value="submit">Start Tarot Reading</button>
+
+        </fieldset>
+        <h4 class="short-exp">Tarology.io is an intuitive cyber tarot platform.<br> Set your intent and recieve
+            intuitive advice provided
+            by
+            Tarologist <em>Johney Auguste Ami</em>.</h4>
+    </div>
     <div>
         <div id="card1">
+            <div id="card1mean"></div>
+            <div id="card1key"></div>
             <div id="card1img"></div>
-            <div id="card1exp"></div>
         </div>
         <div id="card2">
+            <div id="card2mean"></div>
+            <div id="card2key"></div>
             <div id="card2img"></div>
-            <div id="card2exp"></div>
         </div>
         <div id="card3">
+            <div id="card3mean"></div>
+            <div id="card3key"></div>
             <div id="card3img"></div>
-            <div id="card3exp"></div>
         </div>
         <div id="card4">
+            <div id="card4mean"></div>
+            <div id="card4key"></div>
             <div id="card4img"></div>
-            <div id="card4exp"></div>
         </div>
     </div>
 
