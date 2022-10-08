@@ -34,134 +34,142 @@ function readTarot() {
             card: "0 The Fool",
             meaning: "Take the risk but watch your step!",
             keywords: "Beginnings, freedom, innocence, originality, adventure, idealism, spontaneity",
-            img: ""
+            img: "img/the_fool.jpg"
         },
         {
             card: "I The Magician",
             meaning: "You have what you need!",
             keywords: "Willpower, desire, creation, manifestation, resourcefulness, skill, ability, concentration",
-            img: ""
+            img: "img/the_magician.jpg"
         },
         {
             card: "II The High Priestess",
             meaning: "Listen to your intuition not emotion or logic!",
             keywords: "Unconscious, intuition, mystery, spirituality, higher power, inner voice",
-            img: ""
+            img: "img/the_high_priestess.jpg"
         },
         {
             card: "III The Empress",
             meaning: "High-level of Complete love, harmony, fertility and luxury.",
             keywords: "Motherhood, fertility, nature, divine feminine, sensuality, nurturing, creativity, beauty, abundance",
-            img: ""
+            img: "img/the_empress.jpg"
         },
         {
             card: "IV The Emperor",
             meaning: "Discipline and obeying the rules.",
             keywords: "Stability, structure, protection, authority, control, practicality, focus, discipline, fatherliness",
-            img: ""
+            img: "img/the_emperor.jpg"
         },
         {
             card: "V The Hierophant",
             meaning: "Pursuit of traditional knowledge. Adapt to certain beliefs and systems, following social structures",
             keywords: "Tradition, social groups, conventionality, conformity, education, knowledge, beliefs",
-            img: ""
+            img: "img/the_hierophant.jpg"
         },
         {
             card: "VI The Lovers",
             meaning: "Someone loves you, but you may want to make a different choice. Be true to yourself to be true and authentic to others",
             keywords: "Love, unions, partnerships, relationships, choices, romance, balance, unity",
-            img: ""
+            img: "img/the_lovers.jpg"
         },
         {
             card: "VII The Chariot",
             meaning: "It's best to get in the Drivers seat for a while. Opposing forces that need to be controlled",
             keywords: "Success, ambition, determination, willpower, control, self-discipline, focus",
-            img: ""
+            img: "img/the_chariot.jpg"
         },
         {
             card: "VIII Strength",
             meaning: "Use honey not vinegar. Gentle control - love and compassion",
             keywords: "Courage, bravery, confidence, compassion, self-confidence, inner power",
-            img: ""
+            img: "img/strength.jpg"
         },
         {
             card: "IX The Hermit",
             meaning: "Take time alone to think. Walks through dark night of unconscious, with destination being his home, his self",
             keywords: "Self-reflection, introspection, contemplation, withdrawal, solitude, search for self, search for truth",
-            img: ""
+            img: "img/the_hermit.jpg"
         },
         {
             card: "X The Wheel of Fortune",
             meaning: "Things are changing fast around you. Greater forces outside of human control are at work",
             keywords: "Change, cycles, fate, decisive moments, luck, fortune, unexpected events",
-            img: ""
+            img: "img/the_wheel_of_fortune.jpg"
         },
         {
             card: "XI Justice",
             meaning: "Treat people fairly and you will be treated fairly. If you have been wronged, this card's appearance may bring you relief. If you have caused harm, this card serves as a warning",
             keywords: "Justice, karma, consequence, accountability, law, truth, honesty, integrity, cause and effect",
-            img: ""
+            img: "img/justice.jpg"
         },
         {
             card: "XII The Hanged Man",
             meaning: "a sacrifice for the better. His position is a sacrifice that needs to be made in order to progress forward, the time spent here will not be wasted",
             keywords: "Sacrifice, waiting, uncertainty, lack of direction, perspective, contemplation",
-            img: ""
+            img: "img/the_hanged_man.jpg"
         },
         {
             card: "XIII Death",
             meaning: "Accept the end of a situation. The old version of you needs to 'die' to allow the new you to be created",
             keywords: "Transformation, endings, change, transition, letting go, release",
-            img: ""
+            img: "img/death.jpg"
         },
         {
             card: "XIV Temperance",
             meaning: "NEED FOR BALANCE! Be Cautious. Extremity in any situation is to be avoided",
             keywords: "Balance, peace, patience, moderation, calm, tranquility, harmony, serenity",
-            img: ""
+            img: "img/temperance.jpg"
         },
         {
             card: "XV The Devil",
             meaning: "Be aware of the Puppeteer in your life! You have feelings of entrapment, emptiness and lack of fulfillment in your life. Puppeteer could be addiction, a person, or an ideology.",
             keywords: "Oppression, addiction, obsession, dependency, excess, powerlessness, limitations",
-            img: ""
+            img: "img/the_devil.jpg"
         },
         {
             card: "XVI The Tower",
             meaning: "A setback causes need to rebuild. Our old truths/beliefs are no longer useful",
             keywords: "Disaster, destruction, upheaval, trauma, sudden change, chaos",
-            img: ""
+            img: "img/the_tower.jpg"
         },
         {
             card: "XVII The Star",
             meaning: "Healing and rebirth is directly ahead. Shows abundant blessings from the universe",
             keywords: "Hope, inspiration, positivity, faith, renewal, healing, rejuvenation",
-            img: ""
+            img: "img/the_star.jpg"
         },
         {
             card: "XVIII The Moon",
             meaning: "Don't be deceived	by the reflection in the water. The moon, your intuition, can bring you clarity and understanding in the darkness",
             keywords: "Illusion, intuition, uncertainty, confusion, complexity, secrets, unconsciou",
-            img: ""
+            img: "img/the_moon.jpg"
         },
         {
             card: "XIX The Sun",
             meaning: "A wonderful experience is ahead of you. Happiness that occurs when you are in alignment with your true self",
             keywords: "Happiness, success, optimism, vitality, joy, confidence, happiness, truth",
-            img: ""
+            img: "img/the_sun.jpg"
         },
         {
             card: "XX Judgement",
             meaning: "You need to (LISTEN) more! You are coming close to a significant point in your life where you must start to evaluate yourself.",
             keywords: "Self-evaluation, awakening, renewal, purpose, reflection, reckoning",
-            img: ""
+            img: "img/judgement.jpg"
         },
         {
             card: "XXI The World",
             meaning: "All your efforts are starting to pay off. You have completed a major milestone and you have built the resilience to withstand challenges",
             keywords: "Completion, achievement, fulfilment, sense of belonging, wholeness, harmony",
-            img: ""
+            img: "the_world.jpg"
         },
+
+        ///PICK UP HERE ////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////
+
+
         {
             card: "Ace of Pentacles",
             meaning: "Financial opportunity, job or increased pay.",
@@ -504,12 +512,15 @@ function readTarot() {
     card1name.innerText = intuitivetarot[randCard].card;
     card1mean.innerText = intuitivetarot[randCard].meaning;
     card1key.innerText = intuitivetarot[randCard].keywords;
+    //card1img.src = intuitivetarot[randcard].img;
     card2name.innerText = intuitivetarot[randCard2].card;
     card2mean.innerText = intuitivetarot[randCard2].meaning;
     card2key.innerText = intuitivetarot[randCard2].keywords;
+    //card2img.src = intuitivetarot[randcard2].img;
     card3name.innerText = intuitivetarot[randCard3].card;
     card3mean.innerText = intuitivetarot[randCard3].meaning;
     card3key.innerText = intuitivetarot[randCard3].keywords;
+    //card3img.src = intuitivetarot[randcard3].img;
     card4name.innerText = intuitivetarot[randCard4].card;
     card4mean.innerText = intuitivetarot[randCard4].meaning;
     card4key.innerText = intuitivetarot[randCard4].keywords;
