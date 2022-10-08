@@ -17,394 +17,470 @@ var card1 = document.getElementById("card1"),
 var intuitivetarot = [
     {
         card: "0 The Fool",
-        meaning: "Innocence & New beginnings! You are starting a new exciting path with unlimited potential! On this new adventure you're still innocent to all the dangers that surround you like a child running into a beautiful field of flowers, remember that snakes also live in flower fields. Does that mean we should stay out of the fields? NO but acknowledge the risks around you.",
+        meaning: "Take the risk but watch your step!",
+        keywords: "Beginnings, freedom, innocence, originality, adventure, idealism, spontaneity",
         img: ""
     },
-
     {
         card: "I The Magician",
-        meaning: "Creation, Manifestation & Capability! The representative of Divine Masculine Energy, the Magician says as above so below. You are an infinately capable being and whatever it is that you seek, you can have.",
+        meaning: "You have what you need!",
+        keywords: "Willpower, desire, creation, manifestation, resourcefulness, skill, ability, concentration",
         img: ""
     },
-
     {
         card: "II The High Priestess",
-        meaning: "",
+        meaning: "Listen to your intuition not emotion or logic!",
+        keywords: "Unconscious, intuition, mystery, spirituality, higher power, inner voice",
         img: ""
     },
     {
         card: "III The Empress",
-        meaning: "",
+        meaning: "High-level of Complete love, harmony, fertility and luxury.",
+        keywords: "Motherhood, fertility, nature, divine feminine, sensuality, nurturing, creativity, beauty, abundance",
         img: ""
     },
     {
         card: "IV The Emperor",
-        meaning: "",
+        meaning: "Discipline and obeying the rules.",
+        keywords: "",
         img: ""
     },
     {
         card: "V The Hierophant",
-        meaning: "",
+        meaning: "Pursuit of traditional knowledge.",
+        keywords: "",
         img: ""
     },
     {
         card: "VI The Lovers",
-        meaning: "",
+        meaning: "Someone loves you, but you may want to make a different choice.",
+        keywords: "",
         img: ""
     },
     {
         card: "VII The Chariot",
-        meaning: "",
+        meaning: "It's best to get in the Drivers seat for a while.",
+        keywords: "",
         img: ""
     },
     {
         card: "VIII Strength",
-        meaning: "",
+        meaning: "Use honey not vinegar.",
+        keywords: "",
         img: ""
     },
     {
         card: "IX The Hermit",
-        meaning: "",
+        meaning: "Take time alone to think.",
+        keywords: "",
         img: ""
     },
     {
         card: "X The Wheel of Fortune",
-        meaning: "",
+        meaning: "Things are changing fast around you.",
+        keywords: "",
         img: ""
     },
     {
         card: "XI Justice",
-        meaning: "",
+        meaning: "Treat people fairly and you will be treated fairly.",
+        keywords: "",
         img: ""
     },
     {
         card: "XII The Hanged Man",
-        meaning: "",
+        meaning: "a sacrifice for the better.",
+        keywords: "",
         img: ""
     },
     {
         card: "XIII Death",
-        meaning: "",
+        meaning: "Accept the end of a situation.",
+        keywords: "",
         img: ""
     },
     {
         card: "XIV Temperance",
-        meaning: "",
+        meaning: "NEED FOR BALANCE! or be Cautious.",
+        keywords: "",
         img: ""
     },
     {
         card: "XV The Devil",
-        meaning: "",
+        meaning: "Be aware of the Puppeteer in your life!",
+        keywords: "",
         img: ""
     },
     {
         card: "XVI The Tower",
-        meaning: "",
+        meaning: "A setback causes need to rebuild.",
+        keywords: "",
         img: ""
     },
     {
         card: "XVII The Star",
-        meaning: "",
+        meaning: "Healing and rebirth is directly ahead.",
+        keywords: "",
         img: ""
     },
     {
         card: "XVIII The Moon",
-        meaning: "",
+        meaning: "Don't be deceived	by the reflection in the water.",
+        keywords: "",
         img: ""
     },
     {
         card: "XIX The Sun",
-        meaning: "",
+        meaning: "A wonderful experience is ahead of you.",
+        keywords: "",
         img: ""
     },
     {
         card: "XX Judgement",
-        meaning: "",
+        meaning: "You need to (LISTEN) more!",
+        keywords: "",
         img: ""
     },
     {
         card: "XXI The World",
-        meaning: "",
+        meaning: "Freedom to choose a new path.",
+        keywords: "",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Ace of Pentacles",
+        meaning: "Financial opportunity, job or increased pay.",
+        keywords: "New opportunities, resources, abundance, prosperity, security, stability, manifestation",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "2 of Pentacles",
+        meaning: "Find balance, focus on one thing.",
+        keywords: "Balancing resources, adaptation, resourcefulness, flexibility, stretching resources",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "3 of Pentacles",
+        meaning: "Recognition in the workplace is coming your way!",
+        keywords: "Teamwork, shared goals, collaboration, apprenticeship, effort, pooling energy",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "4 of Pentacles",
+        meaning: "Clinging too much (let go).",
+        keywords: "Possessiveness, insecurity, hoarding, stinginess, stability, security, savings, materialism, wealth, frugality, boundaries, guardedness",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "5 of Pentacles",
+        meaning: "Left to struggle in the cold but not alone.",
+        keywords: "Hardship, loss, isolation, feeling abandoned, adversity, struggle, unemployment, alienation, disgrace",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "6 of Pentacles",
+        meaning: "Be generous.",
+        keywords: "Generosity, charity, community, material help, support, sharing, giving and receiving, gratitude",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "7 of Pentacles",
+        meaning: "Don't rest on what you accomplished, there's still work ahead.",
+        keywords: "Harvest, rewards, results, growth, progress, perseverance, patience, planning",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "8 of Pentacles",
+        meaning: "Quality is important and may be reached with learning new skills.",
+        keywords: "Skill, talent, craftsmanship, quality, high standards, expertise, mastery, commitment, dedication, accomplishment",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "9 of Pentacles",
+        meaning: "Self Sufficiency resulting in achievement!",
+        keywords: "Rewarded efforts, success, achievement, independence, leisure, material security, self-sufficiency",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "10 of Pentacles",
+        meaning: "Very well off in your MATERIAL life.",
+        keywords: "Legacy, roots, family, ancestry, inheritance, windfall, foundations, privilege, affluence, stability, tradition",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Page of Pentacles",
+        meaning: "You need to focus on your work and finances.",
+        keywords: "Learning new behaviours, habits, patterns",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Knight of Pentacles",
+        meaning: "Good news about your finances is coming!",
+        keywords: "Efficiency, hard work, routine",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Queen of Pentacles",
+        meaning: "Practising what you preach.",
+        keywords: "Action, Consistency, Accountability, Reflection, REASON",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "King of Pentacles",
+        meaning: "Your material needs are met.",
+        keywords: "Influence, Rich, Money, Minding your own Business, Financial Know-how ",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Ace of Swords",
+        meaning: "New idea or career!",
+        keywords: "Clarity, breakthrough, new idea, concentration, vision, force, focus, truth",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "2 of Swords",
+        meaning: "Set strong boundaries with others.",
+        keywords: "Stalemate, difficult choices, stuck in the middle, denial, hidden information",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "3 of Swords",
+        meaning: "Prepare for disappointment or broken heart ahead if you don't make changes..",
+        keywords: "Heartbreak, separation, sadness, grief, sorrow, upset, loss, trauma, tears",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "4 of Swords",
+        meaning: "Rest, do not take action at this time.",
+        keywords: "Rest, relaxation, peace, sanctuary, recuperation, self-protection, rejuvenation",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "5 of Swords",
+        meaning: "Be considerate of those around you, let go of your ego",
+        keywords: "Arguments, disputes, aggression, bullying, intimidation, conflict, hostility, stress",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "6 of Swords",
+        meaning: "Travel. You are going on a voyage soon!",
+        keywords: "Moving on, departure, leaving behind, distance, accepting lessons",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "7 of Swords",
+        meaning: "Secretive, afraid of being trapped, may take wrong action!",
+        keywords: "Lies, trickery, scheming, strategy, resourcefulness, sneakiness, cunning (the fox card)",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "8 of Swords",
+        meaning: "You feel trapped, you CAN seek help.",
+        keywords: "Trapped, restricted, victimised, paralysed, helpless, powerless, imprisonment",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "9 of Swords",
+        meaning: "Anxiety you imagine is worse than the reality.",
+        keywords: "Fear, anxiety, negativity, breaking point, despair, nightmares, isolation",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "10 of Swords",
+        meaning: "Betrayal or end to relationship or job but pick yourself up.",
+        keywords: "Ruin, failure, bitterness, collapse, exhaustion, dead end, victimisation, betrayal",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Page of Swords",
+        meaning: "Stand your ground!",
+        keywords: "Recklessness, curiosity, mental energy",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Knight of Swords",
+        meaning: "Overcome fear and take action even if out of your comfort zone.",
+        keywords: "Drive, speed, ambition, focus",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Queen of Swords",
+        meaning: "Great powers of analysis!",
+        keywords: "Complexity, perceptive, clear mindedness, level-headed",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "King of Swords",
+        meaning: "Develop concentration and ability to direct and fix attention at will!",
+        keywords: "Intellectual, power, truth",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Ace of Cups",
+        meaning: "New love in your life.",
+        keywords: "Love, new feelings, emotional awakening, creativity, spirituality, intuition",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "2 of Cups",
+        meaning: "Perfect understanding between two people. Someone truly understands you.",
+        keywords: "Unity, partnership, attraction, connection, close bonds, joining forces, mutual respect",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "3 of Cups",
+        meaning: "Someone is unfaithful..close to home",
+        keywords: "Friendship, community, gatherings, celebrations, group events, social events",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "4 of Cups",
+        meaning: "You don't like your choices.",
+        keywords: "Apathy, contemplation, feeling disconnected, melancholy, boredom, indifference, discontent",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "5 of Cups",
+        meaning: "You need to rcover from your emotional wounds.",
+        keywords: "Loss, grief, disappointment, sadness, mourning, discontent, feeling let down",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "6 of Cups",
+        meaning: "Happiness from someone in your past or at a distance.",
+        keywords: "Nostalgia, memories, familiarity, healing, comfort, sentimentality, pleasure",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "7 of Cups",
+        meaning: "Need to prioritize who is important to you.",
+        keywords: "Choices, searching for purpose, illusion, fantasy, daydreaming, wishful thinking, indecision",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "8 of Cups",
+        meaning: "Look for greener pastures. The grass is greener where you water it, unless there is no grass to begin with.",
+        keywords: "Abandonment, walking away, letting go, searching for truth, leaving behind",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "9 of Cups",
+        meaning: "Emotional Satisfaction.",
+        keywords: "Wishes coming true, contentment, satisfaction, success, achievement, recognition, pleasure",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "10 of Cups",
+        meaning: "Be satisfied and stop seeking a better situation.",
+        keywords: "Happiness, homecomings, fulfillment, emotional stability, security, domestic harmony",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Page of Cups",
+        meaning: "Social invitation coming. SAY YES & GO!",
+        keywords: "Innoncence and sensitivity",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Knight of Cups",
+        meaning: "Romantic invitation or emotional move.",
+        keywords: "Love is a by-product of loving action",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Queen of Cups",
+        meaning: "Do not deny your emotions. FEEl them.",
+        keywords: "Highly present, Sensitively attuned, Good boundaries, Genuine engagement with others",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "King of Cups",
+        meaning: "Control your emotions.",
+        keywords: "Compassion, control, balance",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Ace of Wands",
+        meaning: "Accept what is offered. Just go for it, take the chance!",
+        keywords: "Inspiration, creative spark, new initiative, new passion, enthusiasm, energy",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "2 of Wands",
+        meaning: "Completion of contracts and partnership commitments.",
+        keywords: "Planning, first steps, making decisions, leaving comfort zone, taking risks",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "3 of Wands",
+        meaning: "Explore a new path.",
+        keywords: "Momentum, confidence, expansion, growth, foresight, looking ahead",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "4 of Wands",
+        meaning: "Marriage or acceptance by friends and family.",
+        keywords: "Community, home, celebrations, reunions, parties, gatherings, stability, belonging",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "5 of Wands",
+        meaning: "Competition between you and another. Watch out. They may not play fair.",
+        keywords: "Conflict, competition, arguments, aggression, tension, rivals, clashes of ego",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "6 of Wands",
+        meaning: "Victory! You won. ",
+        keywords: "Success, victory, triumph, rewards, recognition, praise, acclaim, pride",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "7 of Wands",
+        meaning: "You feel defensive but you are in a strong position to confront fears and obstacles!",
+        keywords: "Protectiveness, standing up for yourself, defending yourself, protecting territory",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "8 of Wands",
+        meaning: "Things are moving forward without you, do you feel left out? What things are within your control, and what things are outside your control?",
+        keywords: "Movement, speed, progress, quick decisions, sudden changes, excitement",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "9 of Wands",
+        meaning: "Look around, protect yourself and possessions.",
+        keywords: "Last stand, persistence, grit, resilience, perseverance, close to success, fatigue",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "10 of Wands",
+        meaning: "Don't burn out on responsibilities.",
+        keywords: "Burden, responsibility, duty, stress, obligation, burning out, struggles",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Page of Wands",
+        meaning: "On the brink of a new creative project and vision",
+        keywords: "Exploration, excitement, freedom",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Knight of Wands",
+        meaning: "Moving house or job soon or in the process.",
+        keywords: "Action, adventure, fearlessness",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "Queen of Wands",
+        meaning: "How do we nourish ourselves and others? How do we generate warmth and light?",
+        keywords: "Confident, courageous, determined",
         img: ""
     },
     {
-        card: "",
-        meaning: "",
+        card: "King of Wands",
+        meaning: "Prioritize understanding people first. Stop Judging others so hard.",
+        keywords: "Big picture, leader, overcoming challenges",
         img: ""
     },
 
