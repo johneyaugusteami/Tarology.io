@@ -335,13 +335,13 @@ function readTarot() {
         },
         {
             card: "Ace of Cups",
-            meaning: "New love in your life.",
+            meaning: "New love in your life. Open yourself to possibilities that will make you emotionally fulfilled.",
             keywords: "Love, new feelings, emotional awakening, creativity, spirituality, intuition",
             img: "img/ace_of_cups.jpg"
         },
         {
             card: "2 of Cups",
-            meaning: "Perfect understanding between two people. Someone truly understands you.",
+            meaning: "Perfect understanding between two people. Someone truly understands you. Partnership, balanced with a strong connection.",
             keywords: "Unity, partnership, attraction, connection, close bonds, joining forces, mutual respect",
             img: "img/2_of_cups.jpg"
         },
@@ -353,43 +353,43 @@ function readTarot() {
         },
         {
             card: "4 of Cups",
-            meaning: "You don't like your choices.",
+            meaning: "You don't like your choices. Tendency to take things for granted, making it hard to see what treasures the universe presents to us.",
             keywords: "Apathy, contemplation, feeling disconnected, melancholy, boredom, indifference, discontent",
             img: "img/4_of_cups.jpg"
         },
         {
             card: "5 of Cups",
-            meaning: "You need to rcover from your emotional wounds.",
+            meaning: "You need to recover from your emotional wounds. Mourning over lost cups and doesn't notice ones still standing. So caught up in your past that you are incapable of moving on.",
             keywords: "Loss, grief, disappointment, sadness, mourning, discontent, feeling let down",
             img: "img/5_of_cups.jpg"
         },
         {
             card: "6 of Cups",
-            meaning: "Happiness from someone in your past or at a distance.",
+            meaning: "Happiness from someone in your past or at a distance. You have suffered a loss (5Cups) and are journeying home.",
             keywords: "Nostalgia, memories, familiarity, healing, comfort, sentimentality, pleasure",
             img: "img/6_of_cups.jpg"
         },
         {
             card: "7 of Cups",
-            meaning: "Need to prioritize who is important to you.",
+            meaning: "Need to prioritize who is important to you. Consider the many alternative endings, positive or negative.",
             keywords: "Choices, searching for purpose, illusion, fantasy, daydreaming, wishful thinking, indecision",
             img: "img/7_of_cups.jpg"
         },
         {
             card: "8 of Cups",
-            meaning: "Look for greener pastures. The grass is greener where you water it, unless there is no grass to begin with.",
+            meaning: "Look for greener pastures. The grass is greener where you water it, unless there is no grass to begin with. True happiness cannot be found in what you have already created.",
             keywords: "Abandonment, walking away, letting go, searching for truth, leaving behind",
             img: "img/8_of_cups.jpg"
         },
         {
             card: "9 of Cups",
-            meaning: "Emotional Satisfaction.",
+            meaning: "Emotional Satisfaction. The things you wish for are about to come true.",
             keywords: "Wishes coming true, contentment, satisfaction, success, achievement, recognition, pleasure",
             img: "img/9_of_cups.jpg"
         },
         {
             card: "10 of Cups",
-            meaning: "Be satisfied and stop seeking a better situation.",
+            meaning: "Be satisfied and stop seeking a better situation. Emotional fulfillment: being able to experience the full spectrum of emotions.",
             keywords: "Happiness, homecomings, fulfillment, emotional stability, security, domestic harmony",
             img: "img/10_of_cups.jpg"
         },
@@ -401,25 +401,25 @@ function readTarot() {
         },
         {
             card: "Knight of Cups",
-            meaning: "Romantic invitation or emotional move.",
+            meaning: "Romantic invitation or emotional move. Relate feelings to sets of actions e.g. Love is a by-product of loving action, not a pre-requisite.",
             keywords: "Love is a by-product of loving action",
             img: "img/knight_of_cups.jpg"
         },
         {
             card: "Queen of Cups",
-            meaning: "Do not deny your emotions. FEEl them.",
+            meaning: "Do not deny your emotions. FEEl them. Set good Boundaries.",
             keywords: "Highly present, Sensitively attuned, Good boundaries, Genuine engagement with others",
             img: "img/queen_of_cups.jpg"
         },
         {
             card: "King of Cups",
-            meaning: "Control your emotions.",
+            meaning: "Good control of your emotions. Full of emotions but understands how and when to apply them.",
             keywords: "Compassion, control, balance",
             img: "img/king_of_cups.jpg"
         },
         {
             card: "Ace of Wands",
-            meaning: "Accept what is offered. Just go for it, take the chance!",
+            meaning: "Accept what is offered. Just go for it, take the chance! Breakthrough - you are motivated and inspired about a passion, project or idea.",
             keywords: "Inspiration, creative spark, new initiative, new passion, enthusiasm, energy",
             img: "img/ace_of_wands.jpg"
         },
@@ -431,31 +431,31 @@ function readTarot() {
         },
         {
             card: "3 of Wands",
-            meaning: "Explore a new path.",
+            meaning: "Explore a new path. Travel to search for what you are seeing - leaving home, voyage needed.",
             keywords: "Momentum, confidence, expansion, growth, foresight, looking ahead",
             img: "img/3_of_wands.jpg"
         },
         {
             card: "4 of Wands",
-            meaning: "Marriage or acceptance by friends and family.",
+            meaning: "Marriage or acceptance by friends and family. Surround yourself with people who celebrate your offerings and vulnerabilities",
             keywords: "Community, home, celebrations, reunions, parties, gatherings, stability, belonging",
             img: "img/4_of_wands.jpg"
         },
         {
             card: "5 of Wands",
-            meaning: "Competition between you and another. Watch out. They may not play fair.",
+            meaning: "Competition between you and another. Watch out. They may not play fair. Only want to be heard, not listen.",
             keywords: "Conflict, competition, arguments, aggression, tension, rivals, clashes of ego",
             img: "img/5_of_wands.jpg"
         },
         {
             card: "6 of Wands",
-            meaning: "Victory! You won. ",
+            meaning: "Victory! You won. Can bring self-importance and egotistical behaviour, arrogance",
             keywords: "Success, victory, triumph, rewards, recognition, praise, acclaim, pride",
             img: "img/6_of_wands.jpg"
         },
         {
             card: "7 of Wands",
-            meaning: "You feel defensive but you are in a strong position to confront fears and obstacles!",
+            meaning: "You feel defensive but you are in a strong position to confront fears and obstacles! Consider how you react when you feel threatened.",
             keywords: "Protectiveness, standing up for yourself, defending yourself, protecting territory",
             img: "img/7_of_wands.jpg"
         },
@@ -467,37 +467,37 @@ function readTarot() {
         },
         {
             card: "9 of Wands",
-            meaning: "Look around, protect yourself and possessions.",
+            meaning: "Look around, protect yourself and possessions. Evaluate your boundaries, are they secure & really protecting you?",
             keywords: "Last stand, persistence, grit, resilience, perseverance, close to success, fatigue",
             img: "img/9_of_wands.jpg"
         },
         {
             card: "10 of Wands",
-            meaning: "Don't burn out on responsibilities.",
+            meaning: "Don't burn out on responsibilities. Understand you cannot solve everything, and share the burden.",
             keywords: "Burden, responsibility, duty, stress, obligation, burning out, struggles.",
             img: "img/10_of_wands.jpg"
         },
         {
             card: "Page of Wands",
-            meaning: "On the brink of a new creative project and vision.",
+            meaning: "On the brink of a new creative project and vision. In touch with true desires.",
             keywords: "Exploration, excitement, freedom",
             img: "img/page_of_wands.jpg"
         },
         {
             card: "Knight of Wands",
-            meaning: "Moving house or job soon or in the process.",
+            meaning: "Moving house or job soon or in the process. Manifestation of an idea and passionate pursuit of a vision.",
             keywords: "Action, adventure, fearlessness",
             img: "img/knight_of_wands.jpg"
         },
         {
             card: "Queen of Wands",
-            meaning: "How do we nourish ourselves and others? How do we generate warmth and light?",
+            meaning: "How do we nourish ourselves and others? How do we generate warmth and light? Be in touch with your creative spirit.",
             keywords: "Confident, courageous, determined",
             img: "img/queen_of_wands.jpg"
         },
         {
             card: "King of Wands",
-            meaning: "Prioritize understanding people first. Stop Judging others so hard.",
+            meaning: "Prioritize understanding people first. Stop Judging others so hard. Leads and inspires others with his passion.",
             keywords: "Big picture, leader, overcoming challenges",
             img: "img/king_of_wands.jpg"
         },

@@ -26,6 +26,10 @@ body {
     text-shadow: 3px 3px 20px #ca7e8d, -2px 1px 30px #ca7e8d;
 }
 
+.cards {
+    color: #F6F5F3;
+}
+
 /*LAYOUT*/
 .pre-check {
     border: none;
@@ -35,7 +39,7 @@ body {
     border-radius: 15px 15px;
     width: fit-content;
     margin-top: -10%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(0, 0, 0, 0.712) 0px 5px 15px;
 }
 
 .outer-shell_white {
@@ -44,6 +48,37 @@ body {
     padding: 2%;
     margin-top: 10%;
 }
+
+.cards {
+    display: flex;
+    padding: 3%;
+
+}
+
+.tarotcard {
+    margin: 2%;
+    background-color: #76358D;
+    border-radius: 15px;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.788) 0px 5px 15px;
+}
+
+.cardname {
+    color: #211938;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.cardmean {
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.cardkey {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
 
 /*FONTS*/
 body {
