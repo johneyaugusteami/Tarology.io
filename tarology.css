@@ -22,7 +22,6 @@ body {
 
 .top-header {
     color: #F6F5F3;
-    letter-spacing: 5px;
     text-shadow: 3px 3px 20px #ca7e8d, -2px 1px 30px #ca7e8d;
 }
 
@@ -30,16 +29,55 @@ body {
     color: #F6F5F3;
 }
 
-/*LAYOUT*/
-.pre-check {
-    border: none;
+.intent {
+    color: #a120cf;
 }
+
+.tarotcard {
+    background-color: #76358D;
+}
+
+.cardname {
+    color: #211938;
+}
+
+.warning {
+    color: rgb(233, 0, 0);
+}
+
+.pre-check {
+    box-shadow: rgba(0, 0, 0, 0.712) 0px 5px 15px;
+}
+
+.tarotcard {
+    box-shadow: rgba(0, 0, 0, 0.788) 0px 5px 15px;
+}
+
+/*BUTTON*/
+.start-reading {
+    background-color: #76358D;
+    color: #F6F5F3;
+
+}
+
+/*LAYOUT*/
+
+.intent {
+    font-weight: bolder;
+    text-transform: capitalize;
+    width: 35%;
+}
+
+.top-header {
+    letter-spacing: 5px;
+}
+
 
 .pre-check {
     border-radius: 15px 15px;
     width: fit-content;
     margin-top: -10%;
-    box-shadow: rgba(0, 0, 0, 0.712) 0px 5px 15px;
+    border: none;
 }
 
 .outer-shell_white {
@@ -57,14 +95,11 @@ body {
 
 .tarotcard {
     margin: 2%;
-    background-color: #76358D;
     border-radius: 15px;
     padding: 1%;
-    box-shadow: rgba(0, 0, 0, 0.788) 0px 5px 15px;
 }
 
 .cardname {
-    color: #211938;
     text-align: center;
     margin-bottom: 7%;
 }
@@ -86,11 +121,6 @@ body {
     font-family: 'Merienda One', cursive;
 }
 
-/*BUTTON*/
-.start-reading {
-    background-color: #76358D;
-    color: #F6F5F3;
-}
 
 
 /*MEDIA QUERIES*/
